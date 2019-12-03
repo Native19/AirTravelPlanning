@@ -1,0 +1,11 @@
+C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanningFun\bin\Debug\netcoreapp2.2\AirTravelPlanningProc.deps.json
+C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanningFun\bin\Debug\netcoreapp2.2\AirTravelPlanningProc.runtimeconfig.json
+C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanningFun\bin\Debug\netcoreapp2.2\AirTravelPlanningProc.runtimeconfig.dev.json
+C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanningFun\bin\Debug\netcoreapp2.2\AirTravelPlanningProc.dll
+C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanningFun\obj\Debug\netcoreapp2.2\AirTravelPlanningProc.csproj.CoreCompileInputs.cache
+C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanningFun\obj\Debug\netcoreapp2.2\AirTravelPlanningProc.AssemblyInfoInputs.cache
+C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanningFun\obj\Debug\netcoreapp2.2\AirTravelPlanningProc.AssemblyInfo.cs
+C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanningFun\bin\Debug\netcoreapp2.2\AirTravelPlanningProc.pdb
+C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanningFun\obj\Debug\netcoreapp2.2\AirTravelPlanningProc.csprojAssemblyReference.cache
+C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanningFun\obj\Debug\netcoreapp2.2\AirTravelPlanningProc.dll
+C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanningFun\obj\Debug\netcoreapp2.2\AirTravelPlanningProc.pdb

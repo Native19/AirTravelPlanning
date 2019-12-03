@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kostya\\Source\\Repos\\AirTravelPlanning\\AirTravelPlanning\\AirTravelPlanning.csproj": {}
+    "C:\\Users\\Kostya\\Videos\\Documents\\GitHub\\AirTravelPlanning\\AirTravelPlanning\\AirTravelPlanning.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kostya\\Source\\Repos\\AirTravelPlanning\\AirTravelPlanning\\AirTravelPlanning.csproj": {
+    "C:\\Users\\Kostya\\Videos\\Documents\\GitHub\\AirTravelPlanning\\AirTravelPlanning\\AirTravelPlanning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kostya\\Source\\Repos\\AirTravelPlanning\\AirTravelPlanning\\AirTravelPlanning.csproj",
+        "projectUniqueName": "C:\\Users\\Kostya\\Videos\\Documents\\GitHub\\AirTravelPlanning\\AirTravelPlanning\\AirTravelPlanning.csproj",
         "projectName": "AirTravelPlanning",
-        "projectPath": "C:\\Users\\Kostya\\Source\\Repos\\AirTravelPlanning\\AirTravelPlanning\\AirTravelPlanning.csproj",
+        "projectPath": "C:\\Users\\Kostya\\Videos\\Documents\\GitHub\\AirTravelPlanning\\AirTravelPlanning\\AirTravelPlanning.csproj",
         "packagesPath": "C:\\Users\\Kostya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kostya\\Source\\Repos\\AirTravelPlanning\\AirTravelPlanning\\obj\\",
+        "outputPath": "C:\\Users\\Kostya\\Videos\\Documents\\GitHub\\AirTravelPlanning\\AirTravelPlanning\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -46,13 +46,23 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

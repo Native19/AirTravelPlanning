@@ -7,14 +7,8 @@ namespace AirTravelPlanning.Interfaces
 {
     public interface IRepisitory
     {
-        List<RouteModel> LoadData();
-        RouteModel AddRoute();
+        List<RouteModel> UploadData();
 
-        void DeleteRoute();
-
-        void DeleteFlight();
-
-        void UpdateRoute();
-        void UdateFlight();
+        void UnloadData(List<RouteModel> routeModels);
     }
 }
