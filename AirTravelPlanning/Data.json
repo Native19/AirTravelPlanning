@@ -1,38 +1,139 @@
 [
   {
+<<<<<<< HEAD
     "DispatchCity": "Ys",
     "ArrivalCity": "Sp",
     
+=======
+    "DispatchCity": "1",
+    "ArrivalCity": "2",
     "Flights": [
       {
-        "FlightNumber": 546,
-        "DepartureTime": "15:00:00",
+        "FlightNumber": 23,
+        "DepartureTime": "00:00:00",
+        "ArrivalTime": "10:00:00",
+        "DeparturesDays": [ 1, 3, 5 ]
+      }
+    ]
+  },
+  {
+    "DispatchCity": "1",
+    "ArrivalCity": "3",
+    "Flights": [
+      {
+        "FlightNumber": 23,
+        "DepartureTime": "00:00:00",
+        "ArrivalTime": "08:00:00",
+        "DeparturesDays": [ 0, 2, 4, 6 ]
+      }
+    ]
+  },
+  {
+    "DispatchCity": "1",
+    "ArrivalCity": "7",
+    "Flights": [
+      {
+        "FlightNumber": 23,
+        "DepartureTime": "04:00:00",
+        "ArrivalTime": "10:00:00",
+        "DeparturesDays": [ 0, 2, 4, 6 ]
+      }
+    ]
+  },
+  {
+    "DispatchCity": "1",
+    "ArrivalCity": "5",
+    "Flights": [
+      {
+        "FlightNumber": 23,
+        "DepartureTime": "02:00:00",
+        "ArrivalTime": "10:00:00",
+        "DeparturesDays": [ 0, 2, 4, 6 ]
+      }
+    ]
+  },
+  {
+    "DispatchCity": "2",
+    "ArrivalCity": "8",
+    "Flights": [
+      {
+        "FlightNumber": 23,
+        "DepartureTime": "07:00:00",
+        "ArrivalTime": "12:00:00",
+        "DeparturesDays": [ 1, 3, 5 ]
+      }
+    ]
+  },
+  {
+    "DispatchCity": "3",
+    "ArrivalCity": "6",
+    "Flights": [
+      {
+        "FlightNumber": 23,
+        "DepartureTime": "12:00:00",
         "ArrivalTime": "14:00:00",
-        "DeparturesDays": [ 1, 2, 3, 4 ]
+        "DeparturesDays": [ 0, 2, 4, 6 ]
       }
     ]
   },
   {
-    "DispatchCity": "Hb",
-    "ArrivalCity": "Sp",
+    "DispatchCity": "4",
+    "ArrivalCity": "1",
+>>>>>>> 8999cd8766d3b5e85c8f22b6a7141503abe14f36
     "Flights": [
       {
-        "FlightNumber": 76676,
-        "DepartureTime": "10:00:00",
-        "ArrivalTime": "13:00:00",
-        "DeparturesDays": [ 0, 1, 2, 3, 4 ]
+        "FlightNumber": 23,
+        "DepartureTime": "15:00:00",
+        "ArrivalTime": "16:00:00",
+        "DeparturesDays": [ 0, 2, 4, 6 ]
       }
     ]
   },
   {
-    "DispatchCity": "Sp",
-    "ArrivalCity": "Hb",
+    "DispatchCity": "4",
+    "ArrivalCity": "6",
     "Flights": [
       {
-        "FlightNumber": 76676,
-        "DepartureTime": "10:00:00",
-        "ArrivalTime": "13:00:00",
-        "DeparturesDays": [ 0, 1, 2, 3, 4, 5 ]
+        "FlightNumber": 23,
+        "DepartureTime": "13:00:00",
+        "ArrivalTime": "21:00:00",
+        "DeparturesDays": [ 0, 2, 4, 6 ]
+      }
+    ]
+  },
+  {
+    "DispatchCity": "5",
+    "ArrivalCity": "4",
+    "Flights": [
+      {
+        "FlightNumber": 23,
+        "DepartureTime": "11:00:00",
+        "ArrivalTime": "11:30:00",
+        "DeparturesDays": [ 0, 2, 4, 6 ]
+      }
+    ]
+  },
+  {
+    "DispatchCity": "6",
+    "ArrivalCity": "2",
+    "Flights": [
+      {
+        "FlightNumber": 23,
+        "DepartureTime": "22:00:00",
+        "ArrivalTime": "06:00:00",
+        "DeparturesDays": [ 0, 2, 4, 6 ]
+      }
+    ]
+  },
+  {
+    "DispatchCity": "7",
+    "ArrivalCity": "8",
+    "Flights": [
+      {
+        "FlightNumber": 23,
+        "DepartureTime": "06:00:00",
+        "ArrivalTime": "17:30:00",
+        "DeparturesDays": [ 1, 3, 5 ]
       }
     ]
   }
