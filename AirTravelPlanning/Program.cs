@@ -12,12 +12,12 @@ namespace AirTravelPlanning
 
         static void Main(string[] args)
         {
-
-            //Schedule schedule = new Schedule();
-            //schedule.SearchRoute("Vlad", "Sp", DepartureDays.Monday, new TimeSpan(11,0,0));
-
-            //Maybe
-            Console.WriteLine(null + ".");
+            var repository = new DataRepository();
+            var manager = new DataManager(repository);
+            manager.DeleteRoute("Vlad", "Ys");
+            manager.DeleteRoute("Vlad", "Hb");
+            var schedule = new Schedule(manager);
+            schedule.SearchRoute("Sp", "Ys", DepartureDays.Monday, new TimeSpan(11,0,0));
 
             Console.ReadKey();
         }

@@ -1,4 +1,5 @@
-﻿using AirTravelPlanning.Models;
+﻿using AirTravelPlanning.Interfaces;
+using AirTravelPlanning.Models;
 using AirTravelPlanning.Models.Enums;
 using AirTravelPlanning.Models.FlightGraph;
 using AirTravelPlanning.Repositories;
@@ -12,11 +13,11 @@ namespace AirTravelPlanning.Logic
     {
         public List<RouteModel> Routes;
         private Graph graph;
-        private readonly DataManager _dataManager;
+        private readonly IDataManager _dataManager;
 
-        public Schedule()
+        public Schedule(IDataManager dataManager)
         {
-            _dataManager = new DataManager();
+            _dataManager = dataManager;
             Routes = _dataManager.LoadRoutes();
             graph = new Graph(Routes);
         }
@@ -35,7 +36,16 @@ namespace AirTravelPlanning.Logic
                 return;
             }
 
-            Console.WriteLine($"Общее время в пути: Дней - {node.TimeOfRoute.Days}, Часов - {node.TimeOfRoute.Hours}, Минут - {node.TimeOfRoute.Minutes}, Секунд - {node.TimeOfRoute.Seconds}");
+            if (node.TimeOfRoute != TimeSpan.Zero)
+                Console.WriteLine(
+                    $"Общее время в пути: " +
+                    $"Дней - {node.TimeOfRoute.Days}, " +
+                    $"Часов - {node.TimeOfRoute.Hours}, " +
+                    $"Минут - {node.TimeOfRoute.Minutes}, " +
+                    $"Секунд - {node.TimeOfRoute.Seconds}");
+            else
+                Console.WriteLine("Время не определено");
+
             Console.WriteLine();
             Console.WriteLine($"Построенный маршрут:");
 

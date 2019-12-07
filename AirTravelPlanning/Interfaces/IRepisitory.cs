@@ -8,7 +8,6 @@ namespace AirTravelPlanning.Interfaces
     public interface IRepisitory
     {
         List<RouteModel> UploadData();
-
         void UnloadData(List<RouteModel> routeModels);
     }
 }

@@ -1,32 +1,8 @@
 [
   {
-    "DispatchCity": "Vlad",
-    "ArrivalCity": "Ys",
-
-    "Flights": [
-      {
-        "FlightNumber": 23,
-        "DepartureTime": "12:00:00",
-        "ArrivalTime": "3:00:00",
-        "DeparturesDays": [ 0, 1, 2, 3, 4 ]
-      }
-    ]
-  },
-  {
-    "DispatchCity": "Vlad",
-    "ArrivalCity": "Hb",
-    "Flights": [
-      {
-        "FlightNumber": 7788,
-        "DepartureTime": "12:00:00",
-        "ArrivalTime": "11:00:00",
-        "DeparturesDays": [ 0, 1, 2, 3, 4 ]
-      }
-    ]
-  },
-  {
     "DispatchCity": "Ys",
     "ArrivalCity": "Sp",
+    
     "Flights": [
       {
         "FlightNumber": 546,

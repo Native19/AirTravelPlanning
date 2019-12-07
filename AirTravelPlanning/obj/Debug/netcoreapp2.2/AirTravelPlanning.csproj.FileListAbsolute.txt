@@ -3,7 +3,6 @@ C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanning\bin\
 C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanning\bin\Debug\netcoreapp2.2\AirTravelPlanning.runtimeconfig.dev.json
 C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanning\bin\Debug\netcoreapp2.2\AirTravelPlanning.dll
 C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanning\obj\Debug\netcoreapp2.2\AirTravelPlanning.csprojAssemblyReference.cache
-C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanning\obj\Debug\netcoreapp2.2\AirTravelPlanning.csproj.CoreCompileInputs.cache
 C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanning\obj\Debug\netcoreapp2.2\AirTravelPlanning.AssemblyInfoInputs.cache
 C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanning\obj\Debug\netcoreapp2.2\AirTravelPlanning.AssemblyInfo.cs
 C:\Users\Kostya\Videos\Documents\GitHub\AirTravelPlanning\AirTravelPlanning\bin\Debug\netcoreapp2.2\AirTravelPlanning.pdb

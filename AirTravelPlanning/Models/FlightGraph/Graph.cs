@@ -49,6 +49,11 @@ namespace AirTravelPlanning.Models.FlightGraph
             firstNode.TimeOfRoute = TimeSpan.Zero;
 
             BuildWaysFromNode(dispatchCity, departureDay, departureTime);
+            Nodes.ForEach(node =>
+            {
+                if (node.TimeOfRoute == TimeSpan.MaxValue)
+                    node.TimeOfRoute = TimeSpan.Zero;
+            });
 
             return Nodes.Find(node => node.Name == arrivalCity);
         }
